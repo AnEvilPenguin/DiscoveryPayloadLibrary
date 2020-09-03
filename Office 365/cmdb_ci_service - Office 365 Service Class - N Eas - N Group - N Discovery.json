@@ -1,0 +1,16 @@
+{
+    "items": [
+      {
+        "className": "cmdb_ci_service",
+        "lookup": [],
+        "values": {
+          "correlation_id": "Microsoft.SystemCenter.O365.Service:ObjectId",
+          "short_description": "Subscription Id :Microsoft.SystemCenter.O365.Service::Microsoft.SystemCenter.O365.Subscription::SubscriptionId, TenantId: Microsoft.SystemCenter.O365.Subscription:::TenantId",
+          "object_id": "Microsoft.SystemCenter.O365.Service:ObjectId",
+          "name": "Microsoft.SystemCenter.O365.Service::System.Entity::DisplayName",
+          "parent": "Microsoft.SystemCenter.O365.Subscription:ObjectId"
+        }
+      }
+    ],
+    "relations": []
+  }

@@ -1,0 +1,61 @@
+{
+    "items": [
+      {
+        "className": "cmdb_ci_vm_instance",
+        "lookup": [],
+        "values": {
+          "correlation_id": "Azure.VM.Class:ObjectId",
+          "guest_os_fullname": "Azure.VM.Class:::SKU",
+          "ip_address": "Microsoft.Windows.Computer:::IPAddress",
+          "name": "Azure.VM.Class:::Name",
+          "cpus": "Microsoft.Windows.Computer:::LogicalProcessors",
+          "manufacturer": "3D0e8b8e650a0a0b3b004f285ffbb1a4fc",
+          "short_description": "VM Size: Azure.VM.Class:::Size",
+          "vendor": "3D0e8b8e650a0a0b3b004f285ffbb1a4fc",
+          "object_id": "Azure.VM.Class:::VMId"
+        }
+      },
+      {
+        "className": "cmdb_ci_azure_datacenter",
+        "lookup": [],
+        "values": {
+          "name": "Azure.VM.Class:::Location",
+          "vendor": "3D0e8b8e650a0a0b3b004f285ffbb1a4fc",
+          "manufacturer": "3D0e8b8e650a0a0b3b004f285ffbb1a4fc",
+          "region": "Azure.VM.Class:::Location"
+        }
+      },
+      {
+        "className": "cmdb_ci_cloud_service_account",
+        "lookup": [],
+        "values": {
+          "datacenter_type": "Cloud",
+          "account_id": "7af83e9b-ff04-4e3b-b138-ea0640d29046"
+        }
+      },
+      {
+        "className": "cmdb_ci_win_server",
+        "lookup": [],
+        "values": {
+          "name": "Microsoft.Windows.Computer:::NetbiosComputerName"
+        }
+      }
+    ],
+    "relations": [
+      {
+        "type": "Hosted on::Hosts",
+        "parent": 0,
+        "child": 1
+      },
+      {
+        "type": "Hosted on::Hosts",
+        "parent": 1,
+        "child": 2
+      },
+      {
+        "type": "Instantiates::Instantiated by",
+        "parent": 2,
+        "child": 0
+      }
+    ]
+  }
