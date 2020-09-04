@@ -30,7 +30,7 @@
         "lookup": [],
         "values": {
           "datacenter_type": "Cloud",
-          "account_id": "7af83e9b-ff04-4e3b-b138-ea0640d29046"
+          "account_id": "Azure.VM.Class:::SubscriptionId"
         }
       },
       {
