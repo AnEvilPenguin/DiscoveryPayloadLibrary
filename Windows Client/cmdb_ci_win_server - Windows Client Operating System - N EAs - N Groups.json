@@ -1,0 +1,26 @@
+{
+    "items": [
+      {
+        "className": "cmdb_ci_win_server",
+        "lookup": [],
+        "values": {
+          "correlation_id": "Microsoft.Windows.Computer:ObjectId",
+          "cpu_core_count": "Microsoft.Windows.Computer:::LogicalProcessors",
+          "cpu_count": "Microsoft.Windows.Computer:::PhysicalProcessors",
+          "dns_domain": "Microsoft.Windows.Computer:::NetbiosDomainName",
+          "fqdn": "Microsoft.Windows.Computer:::PrincipalName",
+          "ip_address": "Microsoft.Windows.Computer:::IPAddress",
+          "object_id": "Microsoft.Windows.Computer:ObjectId",
+          "os": "[REGEX(Microsoft.Windows.OperatingSystem::System.Entity::DisplayName,'(?<= )(.*)')]",
+          "os_version": "Microsoft.Windows.OperatingSystem:::OSVersion",
+          "ram": "Microsoft.Windows.OperatingSystem:::PhysicalMemory",
+          "virtual": "Microsoft.Windows.Computer:::IsVirtualMachine",
+          "short_description": "SID: Microsoft.Windows.Computer:::ActiveDirectoryObjectSid, AD OU: Microsoft.Windows.Computer:::OrganizationalUnit, System Drive: Microsoft.Windows.OperatingSystem:::SystemDrive, Build: Microsoft.Windows.OperatingSystem:::BuildNumber",
+          "serial_number": "Microsoft.Windows.OperatingSystem:::SerialNumber",
+          "install_date": "Microsoft.Windows.OperatingSystem:::InstallDate",
+          "name": "Microsoft.Windows.Computer:::NetbiosComputerName"
+        }
+      }
+    ],
+    "relations": []
+  }
