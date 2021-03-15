@@ -9,9 +9,9 @@
           "ip_address": "Microsoft.Windows.Computer:::IPAddress",
           "name": "Azure.VM.Class:::Name",
           "cpus": "Microsoft.Windows.Computer:::LogicalProcessors",
-          "manufacturer": "3D0e8b8e650a0a0b3b004f285ffbb1a4fc",
+          "manufacturer": "0e8b8e650a0a0b3b004f285ffbb1a4fc",
           "short_description": "VM Size: Azure.VM.Class:::Size",
-          "vendor": "3D0e8b8e650a0a0b3b004f285ffbb1a4fc",
+          "vendor": "0e8b8e650a0a0b3b004f285ffbb1a4fc",
           "object_id": "Azure.VM.Class:::VMId"
         }
       },
@@ -20,8 +20,8 @@
         "lookup": [],
         "values": {
           "name": "Azure.VM.Class:::Location",
-          "vendor": "3D0e8b8e650a0a0b3b004f285ffbb1a4fc",
-          "manufacturer": "3D0e8b8e650a0a0b3b004f285ffbb1a4fc",
+          "vendor": "0e8b8e650a0a0b3b004f285ffbb1a4fc",
+          "manufacturer": "0e8b8e650a0a0b3b004f285ffbb1a4fc",
           "region": "Azure.VM.Class:::Location"
         }
       },
